@@ -1,0 +1,11 @@
+# 挂载一个独立的 skill-filesystem 实例，仅扫描本包内的 skills/ 目录。
+# includeDefaultRoots: false 避免重复扫描项目/用户目录；
+# bundledSkillDir 以 rank 600 注册，不覆盖任何已有同名 skill。
+# 路径解析与官方 standard.patch.yml 相同：process.getBuiltinModule + baseUrl。
+- insert:
+    - id: obsidian-skills
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: obsidian-skills
+        includeDefaultRoots: false
+        bundledSkillDir: !!js process.getBuiltinModule('node:path').join(process.getBuiltinModule('node:path').dirname(process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('dsh-obsidian-skills/package.json')), 'skills')

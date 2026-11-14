@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Obsidian 官方技能包",
+    "description": "将 Obsidian 官方全部 7 个 Agent Skills 打包为 DSH 插件，为智能体提供 7 项能力：(1) obsidian-markdown —— 编写 Obsidian 风味 Markdown，含 wikilink、嵌入、callout、frontmatter 属性等语法；(2) obsidian-bases —— 创建 .base 数据库视图，支持过滤器、公式与汇总；(3) json-canvas —— 创建 .canvas 画布文件，含节点、连线与分组；(4) defuddle —— 从网页提取干净的 Markdown（需先执行 npm i -g defuddle）；(5) knap —— 用 JSON/CSV 数据与模板批量生成 Markdown 笔记（需先执行 npm i -g knap）；(6) obsidian-cli —— 通过 `obsidian` CLI 操控运行中的 Obsidian 桌面端（CLI 随 Obsidian 安装包提供，需在设置中启用）；(7) obsidian-headless —— 用 `ob` 在命令行运行 Sync/Publish（需 Node.js 22+ 并执行 npm i -g obsidian-headless）。无需任何配置：启用后，7 个技能自动出现在新会话的技能目录中。其中 defuddle、knap、obsidian-headless 还需另行安装对应的命令行工具，obsidian-cli 需要 Obsidian 桌面端在运行且已启用 CLI。技能内容原样来自 obsidianmd/obsidian-skills 仓库（MIT 许可证）。"
+  }
+}

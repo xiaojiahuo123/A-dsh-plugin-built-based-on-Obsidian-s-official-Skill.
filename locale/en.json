@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Obsidian skills",
+    "description": "All seven Obsidian official Agent Skills, repackaged as a DSH bundle. Teaches the agent: (1) obsidian-markdown — write Obsidian Flavored Markdown with wikilinks, embeds, callouts and frontmatter properties; (2) obsidian-bases — create .base database views with filters, formulas and summaries; (3) json-canvas — create .canvas files with nodes, edges and groups; (4) defuddle — extract clean Markdown from web pages (requires `npm i -g defuddle`); (5) knap — batch-render Markdown notes from JSON/CSV templates (requires `npm i -g knap`); (6) obsidian-cli — drive a running Obsidian desktop app via the `obsidian` CLI (CLI ships with the Obsidian installer); (7) obsidian-headless — run Sync/Publish from the CLI with `ob` (requires Node.js 22+ and `npm i -g obsidian-headless`). No configuration needed: after enabling, the seven skills appear in the session skill catalog of every new session. The defuddle, knap and obsidian-headless skills additionally need their CLI tools installed; obsidian-cli needs the Obsidian desktop app running with the CLI enabled. Skill contents are unmodified from obsidianmd/obsidian-skills (MIT license)."
+  }
+}
